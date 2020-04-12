@@ -3,9 +3,22 @@
 Welcome to ECO 395M, a course on data mining and statistical learning for students in the Master's program in Economics at UT-Austin.  All course materials can be found through this GitHub page.  Please see the [course syllabus](syllabus.md) for links and descriptions of the readings mentioned below.
 
 
+## March updates to syllabus
+
+Due to the ongoing COVID-19 pandemic, our syllabus is just one thing in all of our lives that has changed.  Please see the University’s website for general university information on the situation.  Below you’ll find information specific to our course.
+
+- Starting Monday, March 30, all lectures will take place online, via Zoom, at our usual class time: MW 11:00am to 12:15 PM.  Our personal classroom link has been shared with you via Canvas (not posted here).  I will send an e-mail via Canvas with some further information on how to use Zoom.  
+-  HW3 will be posted by Monday, March 30 and due three weeks later, by 11 AM (beginning of class) on Monday, April 20.
+- Because we have lost a week of class, there will be no HW4.  We will preserve the same grading rubric for the course, with your best homework grade counting twice (that is, in lieu of the now-nonexistent HW4).
+- Office hours will proceed at the normal time (MW 1:30 to 2:45), also via Zoom, at the same link I will share via Canvas.  
+- If you’d like feedback on a project prospectus (2 pages max), please get it to me by Friday, April 24 at 10 AM.  The project prospectus is unrequired and ungraded. It is simply an opportunity for you to get feedback. (I cannot guarantee I will get you useful feedback in time for anything received after this date.)
+- If you need accommodations in this class due to a COVID-19-related situation -- whether travel, illness, family, lack of access to resources necessary to attend online lectures and complete the coursework, anything -- I pledge as much flexibility as possible.  Just do two things.  First, please reach out to Student Emergency Services for support. Second, please let me know what you need.  In the interest of privacy, you absolutely don’t need to explain any personal medical, financial, or logistical situations to me.  All you need to do is to tell me what parts of the course you’re not able to complete, and if possible, what kind of accommodation it would take in order address the situation.
+
+
 ## Exercises
 
 I will post the exercises [here](exercises/).   
+
 
 ## Software 
 
@@ -98,26 +111,15 @@ Reading: Chapter 8 of _Introduction to Statistical Learning_.
 [The pdp package](https://journal.r-project.org/archive/2017/RJ-2017-016/RJ-2017-016.pdf) for partial dependence plots from nonparametric regression models.  
 
 
-### Resampling methods (CV, bootstrap)  
-
-[Slides here.](http://rpubs.com/jgscott/resampling)    
-  
-In class:  
-- [bootstrap.R](r/bootstrap.R)  
-- [residual_resampling.R](r/residual_resampling.R)  
-- [predimed_bootstrap.R](data/predimed_bootstrap.R)    
-- [chymotrypsin.csv](data/chymotrypsin.csv)   
-- [ethanol.csv](data/ethanol.csv)    
-- [predimed.csv](data/predimed.csv)    
-
-
-
 ### Unsupervised learning: clustering    
 
-[Slides here.](http://rpubs.com/jgscott/clustering)    
-
+[Slides here.](slides/08-clustering/08-clustering.pdf)  
 Reading: chapter 10.3 of _Introduction to Statistical Learning_.
 
+In class:  
+- [cars.R](r/cars.R)  
+- [hclust_examples.R](r/hclust_examples.R)  
+- [linkage_minmax.R](r/linkage_minmax.R)  
 
 
 ### Unsupervised learning, continued: PCA, networks, and association rules
@@ -135,6 +137,21 @@ Miscellaneous:
 - [The Gephi quick-start tutorial](https://gephi.org/tutorials/gephi-tutorial-quick_start.pdf)  
 - a little Python utility for [scraping Spotify playlists](https://github.com/nithinphilips/spotifyscrape)  
 
+
+
+
+
+### Resampling methods (CV, bootstrap)  
+
+[Slides here.](http://rpubs.com/jgscott/resampling)    
+  
+In class:  
+- [bootstrap.R](r/bootstrap.R)  
+- [residual_resampling.R](r/residual_resampling.R)  
+- [predimed_bootstrap.R](data/predimed_bootstrap.R)    
+- [chymotrypsin.csv](data/chymotrypsin.csv)   
+- [ethanol.csv](data/ethanol.csv)    
+- [predimed.csv](data/predimed.csv)    
 
 
 
